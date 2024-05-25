@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.com.extensao.ajudaaqui" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Ajuda Aqui</name>
+    <description>App para o projeto de Extensão</description>
+    <author email="carlos.henrique@edu.unifil.br" href="https://sites.google.com/edu.unifil.br/ajuda-aqui/in%C3%ADcio">
+        Carlos Henrique Penias
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>
