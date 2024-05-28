@@ -2,7 +2,7 @@
     --branco: #ffff;
     --preto: #2a2a2a;
     --azul-escuro: #000080;
-    --azul: #4169E1;
+    --azul: #3754f8;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
@@ -90,4 +90,8 @@ body{
     margin-left: 2%;  
     font-size: 60px;
     color: var(--branco)
+}
+
+.page-content{
+    background: var(--azul-escuro);
 }
