@@ -42,6 +42,16 @@ var app = new Framework7({
         mousewheel: true,
       });
 
+      var swiper02 = new Swiper(".mySwiper02", {
+        direction: "vertical",
+        slidesPerView: "auto",
+        freeMode: true,
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+        mousewheel: true,
+      });
+
 		},
 		pageBeforeRemove: function (event, page) {
 		// fazer algo antes da página ser removida do DOM
