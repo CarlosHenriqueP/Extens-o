@@ -224,5 +224,30 @@ body{
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
             padding: 30px;
-        }    
+        }
+        
+.boton-order{
+    width: 100px;
+    height: 75px;
+    flex-direction: column;
+    align-items: center;
+    color: var(--branco);
+    margin: 10px auto;  
+}
+    .title-boton-order{
+        font-size: 15px;
+        margin-bottom: 3px;
+        margin-left: 4px;
+    }
+        
+    .btn-boton-order{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 28%;  
+        font-size: 60px;
+        color: var(--branco)
+    }        
 
