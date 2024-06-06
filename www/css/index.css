@@ -279,4 +279,69 @@ body{
                 color: var(--branco);
             }
 
+/* LINK 03 - PÁGINA DE BATE-PAPO */
 
+.title-chat{
+    
+    height: 20px;
+    color: var(--preto);
+    background: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px ;
+}
+
+    .conversa-01{
+        background: var(--branco);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 4px var(--preto);
+        margin: 10px;
+    }
+        .btn-conversa-01{
+            display: flex;
+            justify-content: end;
+            font-size: 45px;
+            width: 40px;
+            height: 40px;
+            margin-left: 85%;  
+            color: var(--preto)
+        }
+
+        .conversa-02{
+            background: var(--branco);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 4px var(--preto);
+            margin: 10px;
+        }
+            .btn-conversa-02{
+                display: flex;
+                justify-content: end;
+                font-size: 45px;
+                width: 40px;
+                height: 40px;
+                margin-left: 85%;  
+                color: var(--preto)
+            }
+
+            .conversa-03{
+                background: var(--branco);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                border: 4px var(--preto);
+                margin: 10px;
+            }
+                .btn-conversa-03{
+                    display: flex;
+                    justify-content: end;
+                    font-size: 45px;
+                    width: 40px;
+                    height: 40px;
+                    margin-left: 85%;  
+                    color: var(--preto)
+                }
