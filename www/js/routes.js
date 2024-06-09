@@ -90,6 +90,36 @@ var app = new Framework7({
 		},
 		pageInit: function (event, page) {
 		// fazer algo quando a página for inicializada
+
+    var swiper = new Swiper(".mySwiper03", {
+      direction: "vertical",
+      slidesPerView: "auto",
+      freeMode: true,
+      scrollbar: {
+        el: ".swiper-scrollbar",
+      },
+      mousewheel: true,
+    });
+
+		},
+		pageBeforeRemove: function (event, page) {
+		// fazer algo antes da página ser removida do DOM
+		},
+	  }
+    },
+    {
+      path: '/link3-1/',
+      url: 'link3-pag1.html',
+      animate: false,
+	  on: {
+		pageBeforeIn: function (event, page) {
+		// fazer algo antes da página ser exibida
+		},
+		pageAfterIn: function (event, page) {
+		// fazer algo depois da página ser exibida
+		},
+		pageInit: function (event, page) {
+		// fazer algo quando a página for inicializada
 		},
 		pageBeforeRemove: function (event, page) {
 		// fazer algo antes da página ser removida do DOM

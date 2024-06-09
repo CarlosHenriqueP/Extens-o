@@ -279,7 +279,9 @@ body{
                 color: var(--branco);
             }
 
-/* LINK 03 - PÁGINA DE BATE-PAPO */
+/* LINK 03 - PÁGINA DE HISTÓRICO DE BATE-PAPO */
+
+
 
 .title-chat{
     
@@ -292,6 +294,19 @@ body{
     margin: 15px ;
 }
 
+.swiper03 {
+    width: 100%;
+    height: 670px;
+    background: #e9e8e8;
+  }
+
+        .swiper-slide-03 {
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            padding: 7px;
+        }
+
     .conversa-01{
         background: var(--branco);
         display: flex;
@@ -299,14 +314,16 @@ body{
         justify-content: space-between;
         border: 4px var(--preto);
         margin: 10px;
+        max-width: calc(100% - 20px);
+        box-sizing: border-box;
     }
         .btn-conversa-01{
             display: flex;
-            justify-content: end;
+            justify-content: flex-end;
             font-size: 45px;
             width: 40px;
             height: 40px;
-            margin-left: 85%;  
+            margin-left: auto;  
             color: var(--preto)
         }
 
@@ -317,14 +334,16 @@ body{
             justify-content: space-between;
             border: 4px var(--preto);
             margin: 10px;
+            max-width: calc(100% - 20px);
+            box-sizing: border-box;
         }
             .btn-conversa-02{
                 display: flex;
-                justify-content: end;
+                justify-content: flex-end;
                 font-size: 45px;
                 width: 40px;
                 height: 40px;
-                margin-left: 85%;  
+                margin-left: auto;  
                 color: var(--preto)
             }
 
@@ -335,13 +354,147 @@ body{
                 justify-content: space-between;
                 border: 4px var(--preto);
                 margin: 10px;
+                max-width: calc(100% - 20px);
+                box-sizing: border-box;
             }
                 .btn-conversa-03{
                     display: flex;
-                    justify-content: end;
+                    justify-content: flex-end;
                     font-size: 45px;
                     width: 40px;
                     height: 40px;
-                    margin-left: 85%;  
+                    margin-left: auto;  
                     color: var(--preto)
                 }
+            
+                .conversa-04{
+                    background: var(--branco);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    border: 4px var(--preto);
+                    margin: 10px;
+                    max-width: calc(100% - 20px);
+                    box-sizing: border-box;
+                }
+                    .btn-conversa-04{
+                        display: flex;
+                        justify-content: flex-end;
+                        font-size: 45px;
+                        width: 40px;
+                        height: 40px;
+                        margin-left: auto;  
+                        color: var(--preto)
+                    } 
+                    
+                    
+
+/* LINK 03 PÁGINA 01 - PÁGINA DE BATE-PAPO */
+
+.chat-card {
+    width: 100%;
+    height: 670px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+    .chat-header {
+        padding: 10px;
+        background-color: #f2f2f2;
+        display: flex;
+        align-items: center;
+    }
+    
+    .chat-header .h2 {
+        font-size: 16px;
+        color: #333;
+    }
+    
+    .chat-body {
+        padding: 20px;
+        overflow-y: auto;
+        flex-grow: 1;
+        height: 700px;
+        width: 810px;
+    }
+    
+    .message {
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+      
+    }
+    
+    .incoming {
+        background-color: #e1e1e1;
+    }
+    
+    .outgoing {
+        background-color: #f2f2f2;
+        text-align: right;
+    }
+    
+    .message p {
+        font-size: 14px;
+        color: #333;
+        margin: 0;
+    }
+    
+    .chat-footer {
+        padding: 10px;
+        background-color: #f2f2f2;
+        display: flex;
+    }
+    
+    .chat-footer input[type="text"] {
+        width: 1720px;
+        flex-grow: 1;
+        padding: 15px;
+        border: none;
+        border-radius: 3px;
+    }
+    
+    .chat-footer button {
+        padding: 5px 10px;
+        border: none;
+        background-color: var(--azul);
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .chat-footer button:hover {
+        background-color: #13b6df;
+    }
+    
+    @keyframes chatAnimation {
+        0% {
+        opacity: 0;
+        transform: translateY(10px);
+        }
+    
+        100% {
+        opacity: 1;
+        transform: translateY(0);
+        }
+    }
+    
+    .chat-card .message {
+        animation: chatAnimation 0.3s ease-in-out;
+        animation-fill-mode: both;
+        animation-delay: 0.1s;
+    }
+    
+    .chat-card .message:nth-child(even) {
+        animation-delay: 0.2s;
+    }
+    
+    .chat-card .message:nth-child(odd) {
+        animation-delay: 0.3s;
+    }
+    
