@@ -91,7 +91,7 @@ var app = new Framework7({
 		pageInit: function (event, page) {
 		// fazer algo quando a página for inicializada
 
-    var swiper = new Swiper(".mySwiper03", {
+    var swiper03 = new Swiper(".mySwiper03", {
       direction: "vertical",
       slidesPerView: "auto",
       freeMode: true,
