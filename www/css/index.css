@@ -138,6 +138,7 @@ body{
                color: var(--preto); 
               margin-bottom: 10px;
              margin-top: 10px;
+             font-size: 25px;
              }
 
 .page-content{
@@ -278,6 +279,92 @@ body{
             .title-menu-03{
                 color: var(--branco);
             }
+
+/* LINK 02 - PÁGINA DO PERFIL */
+
+.title-profile{
+    
+    height: 20px;
+    color: var(--preto);
+    background: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px ;
+}
+
+.profile {
+    width: 180px;
+    height: 180px;
+    background: var(--azul-escuro) (39, 39, 39);
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px var(--azul);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .5s;
+    border-radius: 50%;
+    margin-left: 200px;
+  }
+  
+  .profileImage {
+    background: linear-gradient(to right,rgb(8, 43, 95),rgb(70, 211, 169));
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(29, 143, 196, 0.329);
+  }
+  
+  .textContainer {
+    background-color: var(--branco);
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--preto);
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+        .textContainer h1 {
+            background-color: var(--azul-escuro);
+            font-size: 20px;
+            color:var(--branco);
+        }
+        .textContainer p {
+            font-size: 15px;
+            color:var(--preto);
+        }
+
+  .profile:hover {
+    background-color: rgb(7, 43, 121);
+    transition-duration: .5s;
+  }
+
+  .btn-profile{
+    width: 160px;
+    color: var(--branco);
+    font-size: 7px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left:  400px;
+
+  }
+
+  .btn-subscribe{
+    color: var(--branco);
+    opacity: 0.7;
+    font-size: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin-top: 60px;
+  }
 
 /* LINK 03 - PÁGINA DE HISTÓRICO DE BATE-PAPO */
 
